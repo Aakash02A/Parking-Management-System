@@ -57,15 +57,16 @@ This application demonstrates core programming concepts such as collections, obj
 | Cars         | 4     |
 | Trucks       | 2     |
 
+``` 
 Spots are labeled:
 - Bike: `B-1`, `B-2`, `B-3`
 - Car: `C-1`, `C-2`, `C-3`, `C-4`
 - Truck: `T-1`, `T-2`
-
+```
 ---
 
 ## Administrator Access
-Password:  admin123
+Default Password:  admin123
 
 ## Program Menu
 1. Park Vehicle
@@ -87,11 +88,11 @@ Password:  admin123
 
 ---
 
-## Known Limitations
-- Flat pricing (no time-based billing)
-- Input validation is minimal
-- Admin can remove spots even if occupied
-- Data is not persisted (clears on exit)
+## Current Constraints
+- Fixed pricing (time is not calculated)
+- Basic input validation
+- Admin can remove active spots
+- Data is stored in memory only (no database/file persistence)
 
 ---
 
@@ -103,3 +104,5 @@ Password:  admin123
 - Role-based authentication
 - Reporting dashboard
 
+> ## Project Motivation
+> This project was developed based on the idea of creating a simple and effective parking lot management solution. The goal is to demonstrate project idea, logical design, Java programming fundamentals, and problem-solving using console-based interaction.
